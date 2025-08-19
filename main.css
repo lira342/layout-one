@@ -1,0 +1,47 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+  margin: 0;
+}
+
+#one {
+  display: flex;
+  gap: 0.5em;
+}
+#one-left {
+  background-color: skyblue;
+  height: 30vh;
+  width: 50%;
+}
+#one-right {
+  background-color: skyblue;
+  height: 30vh;
+  width: 50%;
+  height: 30vh;
+}
+
+#two-left{
+    background-color: skyblue;
+    width: 50%;
+    height: 30vh;
+}
+
+#three-left {
+background-color: skyblue;
+width: 50%;
+height: 40vh;
+}
+
+.grid > * {
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1em;
+  margin: 1em;
+}
