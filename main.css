@@ -7,14 +7,14 @@ body {
   display: flex;
   gap: 0.5em;
   margin: 0;
-
-  
 }
+
 #one-left {
   background-color: skyblue;
   height: 30vh;
   width: 50%;
 }
+
 #one-right {
   background-color: skyblue;
   height: 30vh;
